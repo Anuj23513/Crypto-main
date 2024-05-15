@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    backdrop-filter: blur(50px);
+}
+
+body{
+    background-image: url(images/space.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.back{
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* border: 2px solid black; */
+    /* border-radius: 20px ; */
+    margin: 0px;
+    margin-bottom: 0;
+    
+}
+
+.header{
+    display: flex;
+    justify-content:;
+    /* margin-top: 5px; */
+    /* margin-left: 10px; */
+    font-size: 30px;
+    justify-content: space-between;
+
+    
+}
+
+#crypto_Company{
+    margin-top: 5px;
+    border: 2px solid rgb(253, 244, 244);
+    border-radius: 10px;
+    height:fit-content ;
+    color: white;
+}
+
+.header a{
+    margin-right:15px ;
+    text-decoration: none;
+    font-size: 30px;
+    color:white;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: fit-content;
+
+}
+
+.header a:hover{
+    color: #e4a5a5 ;
+    border-radius: 50px;
+    border-color: #dbc2c2 ;
+    transition: all 0.3s ease 0s;
+}
+
+.header div select{
+    margin-right: 10px;
+    font-size: 20px;
+
+}
+
+#search input{
+    margin-left:20vw;
+    margin-bottom:15px;
+    margin-top: 5px;
+    text-align: center;
+    width: 50%;
+    height: 40px;
+    background-color:rgba(248, 248, 255, 0.822);
+    border: 2px solid #dbe8e9;
+    border-radius:10px;
+    font-size: 25px;
+    background: blur(2px)
+    box
+    
+}
+
+#search input:hover{
+     color: #e4a5a5 ;
+    border-radius: 15px;
+    color: brown;
+    cursor: pointer;
+    border-color: #dbc2c2 ;
+    transition: all 0.2s ease 0s;
+    color: white;
+    background: black;
+}
+#search h2{
+
+    margin-left:32vw;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size:35px;
+    border:1px solid white;
+    width:fit-content;
+    border-radius:10px;
+    filter: brightness(200%);
+    color: wheat;
+    box-shadow: 10px 10px 10px -10px yellow;
+
+}
+
+#search button{
+    padding: 5px;
+    border: 1px solid greenyellow;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+#search button:hover{
+     color: #e4a5a5 ;
+    border-radius: 50px;
+    border-color: #dbc2c2 ;
+    transition: all 0.3s ease 0s;
+}
+
+#help_centre{
+/* background-image: url(images/space.jpg); */
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 10px;
+margin: 2px;
+}
+
+#p1{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+
+.p{
+    display: flex;
+    margin-left:200px;
+}
+
+.p6{
+    display: flex;
+    margin-left:200px;
+    margin-bottom: 10px;
+}
+
+.help{
+        width: 300px;
+        border: 1px solid black;
+        padding: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-left: 30px;
+        border-radius: 20px;
+        background-color: #eee7e7;
+        font-size: 15px;
+    
+}
+
+.help:hover{
+    padding: 100x;
+    border: 2px solid red;
+    transition: all 0.07s ease 0.2s;
+    font-size: 22px;
+    cursor: pointer;
+    background:transparent;
+    color: white;
+    box-shadow:10px 10px 50px -5px yellow ;
+    font-weight: bolder;
+}
+
+.main{
+    /* background: url(images/space.jpg);  */
+}
